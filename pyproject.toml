@@ -1,0 +1,9 @@
+[project]
+name = "kalki-intelligence"
+version = "0.1.0"
+description = "Kalki Mini, a small GPT-style companion model implemented in PyTorch"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.6", "tiktoken>=0.8"]
+
+[tool.ruff]
+line-length = 100
